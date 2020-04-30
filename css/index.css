@@ -1,0 +1,208 @@
+body{
+    background-image: url("../img/body.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+}
+
+.home{
+    background-image: url("../img/body_2.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+}
+.container {
+    position: relative;
+    width: 690px;
+    height: 300px;
+}
+
+.but{
+    position: absolute;
+    left:220px;
+    width:200px;
+    height:50px;
+    text-align: center;
+    animation: blinkbutton 2s infinite;
+
+}
+@keyframes blinkbutton{
+    1%		{ color: #ef0a1a;}
+    25%		{ color: #04eff7;}
+    50%		{ color: #10c018;}
+    75%  	{ color: #e4e706;}
+    100%	{ color: #f80757;}
+    
+}
+.container #link{
+    position: absolute;
+    left:290px;    
+}
+
+
+h1{
+    background-color: blue;
+    color: beige;
+}
+h2{
+    background-color: blue;
+    color: beige;
+    float:right;
+    border-radius: 10px;
+    right:10px;
+}
+.header {
+    position: relative;
+    left:450px;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+	display: inline-block;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 45px;
+    animation: blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+    0%		{ background-color: #10c018;}
+    25%		{ background-color: #1056c0;}
+    50%		{ background-color: #ef0a1a;}
+	75%		{ background-color: #254878;}
+	100%	{ background-color: #04a1d5;}
+    1%		{ color: #10c018;}
+    25%		{ color: #04eff7;}
+    50%		{ color: #ef0a1a;}
+    75%  	{ color: #e4e706;}
+    100%	{ color: #f80757;}
+}
+
+
+
+.computer {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size:cover;
+    top: 180px;
+    left: 720px;
+    height: 200px;
+    width: 400px;
+}
+
+.computer img {
+    position: absolute;
+    top: 100px;
+    left: 165px;
+    width: 150px;
+    height: 150px;
+}
+
+.user {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size:cover;
+    top: 180px;
+    left: 120px;
+    height: 200px;
+    width: 400px;
+}
+
+.user img {
+    position: absolute;
+    top: 100px;
+    left: 165px;
+    width: 150px;
+    height: 150px;
+}
+h3{
+    text-align: center;
+    margin-left: 160px;
+    color: rgb(255, 255, 255);
+    width:150px;
+    border-radius: 10px;
+    animation:blinkingTexth3 2s infinite;
+}
+h4{
+    margin-left: 0px;
+    color: white;
+}
+@keyframes blinkingTexth3{
+    25%		{ background-color: #10c018;}
+    0%   	{ background-color: #1056c0;}
+    100%		{ background-color: #ef0a1a;}
+	75%		{ background-color: #254878;}
+	50%	{ background-color: #04a1d5;}
+
+}
+.btn-group {
+    position: absolute;
+    display: block;
+    width: 500px;
+    top: 515px;
+    margin-left: 505px;
+}
+
+
+
+.btn-group button {
+    width: 15px;
+    background-color: rgb(28, 31, 214);
+    /* Green background */
+    border: 1px solid rgb(52, 56, 240);
+    /* Green border */
+    color: white;
+    /* White text */
+    padding: 10px 24px;
+    /* Some padding */
+    cursor: pointer;
+    /* Pointer/hand icon */
+    float: left;
+    /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
+    /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #02007e;
+}
+
+#cscore{  position: relative;
+    top:515px;
+    height:60px;
+    background-color: blue;
+    text-align: center;
+    
+}
+.out{
+    background-image: url(../img/out.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top:250px;
+    left:550px;
+    width:200px;
+    height:200px;
+    border-radius: 150px;
+}
+.quit{
+    position:absolute;
+    width:150px;
+    left:1200px;
+    
+}
+.quit h2{
+    background-color: blue;
+    border-radius:15px;
+    color: black;
+}
