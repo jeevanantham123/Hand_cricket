@@ -233,7 +233,7 @@ h4{
         background-image: none;     
     }
     .but{
-        left:50px;
+        left:10px;
     }
     .container{
         overflow: hidden;
@@ -243,7 +243,7 @@ h4{
         background-color: slateblue;
     }
     .container #link{
-        left:100px;
+        left:70px;
     }
     .quit{
         top:40px;
