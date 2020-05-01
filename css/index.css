@@ -26,9 +26,11 @@ body{
 }
 
 .container {
-    position: relative;
-    width: 690px;
-    height: 300px;
+    position: absolute;
+    left:350px;
+    width: 100%;
+    height: 100%;
+
 }
 .col-lg-12{
     position: absolute;
@@ -100,13 +102,12 @@ h2{
     position: absolute;
     top: 240px;
     left: 720px;
-    height: 200px;
-    width: 400px;
+    
 }
 
 .computer img {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 165px;
     width: 150px;
     height: 150px;
@@ -116,13 +117,12 @@ h2{
     position: absolute;
     top: 240px;
     left: 120px;
-    height: 200px;
-    width: 400px;
+    
 }
 
 .user img {
     position: absolute;
-    top: 100px;
+    top: 80px;
     left: 165px;
     width: 150px;
     height: 150px;
@@ -151,7 +151,7 @@ h4{
     position: absolute;
     display: block;
     width: 500px;
-    top: 515px;
+    top: 510px;
     margin-left: 505px;
 }
 
@@ -191,7 +191,7 @@ h4{
 }
 
 #cscore{  position: relative;
-    top: 280px;
+    top: 570px;
     height:60px;
     padding-top:2px;
     font-weight: bolder;
@@ -228,16 +228,14 @@ h4{
         left: 0px;
     }
     body{
-        background-image: none;
-        background-color: slateblue;
-        height:100%;
-        width:100%;
+        background-image: none;     
     }
     .but{
         left:150px;
     }
     .container{
-        width: auto;
+        left:0px;
+        background-color: slateblue;
     }
     .container #link{
         left:210px;
@@ -247,21 +245,19 @@ h4{
         left:350px;
     }
     .home{
-        background-color: slateblue;
         background-image: none;
-        height:100%;
-        width:100%;
     }
     .user{
-        top:300px;
+        top:250px;
         left:10px;
     }
     .computer{
         top:50px;
         left:10px;
+        width:300px;
     }
     .btn-group{
-        top:530px;
+        top:450px;
         margin-left:100px;
         width: 300px;
     }
@@ -278,6 +274,7 @@ h4{
     }
 
     #cscore{
+        top:500px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 0px;
         width: 100%;
