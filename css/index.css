@@ -224,20 +224,23 @@ h4{
 }
 @media only screen and  (max-width:600px){
     .header{
+        width: 100%;
         font-size: 20px;
         left: 0px;
     }
     body{
         background-image: none;
         background-color: slateblue;
-        height:100%;
-        width:100%;
+        
+    }
+    h3{
+        width:100px;
     }
     .but{
         left:150px;
     }
     .container{
-        width: 100%;
+        width: 600px;
     }
     .container #link{
         left:210px;
@@ -249,16 +252,19 @@ h4{
     .home{
         background-color: slateblue;
         background-image: none;
-        height:100%;
-        width:100%;
+        
     }
     .user{
-        top:300px;
+        top:250px;
         left:10px;
+        width:200px;
+        height:200px;
     }
     .computer{
         top:50px;
         left:10px;
+        width:200px;
+        height: 200px;
     }
     .btn-group{
         top:530px;
