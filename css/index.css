@@ -247,47 +247,47 @@ h4{
     }
     .quit{
         top:40px;
-        left:160px;
+        left:210px;
     }
     .home{
         background-image: none;
     }
     .user{
-        top:220px;
-        left:0px;
+        top:280px;
+        left:70px;
     }
     .computer{
-        top:50px;
-        left:0px;
+        top:100px;
+        left:70px;
         
     }
     .btn-group{
-        top:410px;
-        margin-left:0px;
+        top:460px;
+        margin-left:25px;
         width: 300px;
     }
     .computer img{
-        left:30px;
+        left:40px;
         width:100px;
         height: 100px;
         top:55px;
     }
     .user img{
-            left:30px;
+            left:40px;
             width:100px;
             height: 100px;
             top:55px;
     
     }
     h3{
-        margin-left: 0px;
+        margin-left: 10px;
     }
 
     #cscore{
-        top:450px;
+        top:495px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 0px;
-        width: 300px;
+        width: 350px;
         height: 27px;
         font-size:15px;
         font-weight: bold;
