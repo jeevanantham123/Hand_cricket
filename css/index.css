@@ -223,12 +223,16 @@ h4{
     color: black;
 }
 @media only screen and  (max-width:600px){
+    html{
+        width: 300px;
+    }
     .header{
-        width: 100%;
+        width: 300px;
         font-size: 20px;
         left: 0px;
     }
     body{
+        width:300px;
         background-image: none;
         background-color: slateblue;
         
@@ -237,13 +241,13 @@ h4{
         width:100px;
     }
     .but{
-        left:150px;
+        left:50px;
     }
     .container{
-        width: 600px;
+        width: 300px;
     }
     .container #link{
-        left:210px;
+        left:120px;
     }
     .quit{
         top:40px;
