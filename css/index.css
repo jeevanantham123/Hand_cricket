@@ -222,32 +222,25 @@ h4{
     border-radius:15px;
     color: black;
 }
-@media only screen and  (max-width:600px){
-    html{
-        width: 300px;
-    }
+@media only screen and  (max-width:800px){
     .header{
-        width: 300px;
         font-size: 20px;
         left: 0px;
     }
     body{
-        width:300px;
         background-image: none;
         background-color: slateblue;
-        
-    }
-    h3{
-        width:100px;
+        height:100%;
+        width:100%;
     }
     .but{
-        left:50px;
+        left:150px;
     }
     .container{
-        width: 300px;
+        width: auto;
     }
     .container #link{
-        left:120px;
+        left:210px;
     }
     .quit{
         top:40px;
@@ -256,19 +249,16 @@ h4{
     .home{
         background-color: slateblue;
         background-image: none;
-        
+        height:100%;
+        width:100%;
     }
     .user{
-        top:250px;
+        top:300px;
         left:10px;
-        width:200px;
-        height:200px;
     }
     .computer{
         top:50px;
         left:10px;
-        width:200px;
-        height: 200px;
     }
     .btn-group{
         top:530px;
