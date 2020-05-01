@@ -237,7 +237,7 @@ h4{
         left:150px;
     }
     .container{
-        width: auto;
+        width: 100%;
     }
     .container #link{
         left:210px;
