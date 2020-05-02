@@ -260,7 +260,7 @@ h4{
         background-image: none;
     }
     .user{
-        top:270px;
+        top:290px;
         left:90px;
     }
     .computer{
@@ -270,7 +270,7 @@ h4{
     }
     .btn-group{
         bottom:50px;
-        margin-left:25px;
+        margin-left:28px;
         width: 300px;
     }
     .computer img{
@@ -291,12 +291,12 @@ h4{
     }
 
     #cscore{
-        top:550px;
+        top:560px;
         left:0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding-top: 0px;
+        padding-top:3px;
         width: 360px;
-        height: 27px;
+        height: 30px;
         font-size:15px;
         font-weight: bold;
         color: rgb(2, 2, 2) 
