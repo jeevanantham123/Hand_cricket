@@ -5,7 +5,7 @@ $(document).ready(function () {
 
          $("img").hide();
          $(".out").hide();
-         setTimeout(function(){alert("Instructions: Click a number to play")},100);
+         setTimeout(function(){alert("Instructions:\nClick a number to play")},100);
         function redirect(){
            setTimeout(function(){ window.location="index.html"},1000);
         }
@@ -59,7 +59,7 @@ $(document).ready(function () {
                         $("#" + rand).fadeToggle(1000);
                         $("#u" + user_rand).fadeToggle(1000);
                         comp_score = comp_score + Number(rand);
-                        $("#cscore").html("<h4>Batting:Computer&nbsp;&nbsp;&nbsp;Bowling:User&nbsp;&nbsp;&nbsp;Score:"+comp_score+"</h4>");
+                        $("#cscore").html("Batting:Computer&nbsp;&nbsp;&nbsp;Bowling:User&nbsp;&nbsp;&nbsp;Score:"+comp_score);
                         user_rand = 0;
                     }
 
