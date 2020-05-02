@@ -238,9 +238,9 @@ h4{
     }
     .container{
         overflow: hidden;
-        margin-left:0px;
         float: left;
         left:0px;
+        padding-left: 0px;
         width: 100%;
         height: 100%;
         background-color: slateblue;
@@ -265,7 +265,7 @@ h4{
         
     }
     .btn-group{
-        top:460px;
+        bottom:550px;
         margin-left:25px;
         width: 300px;
     }
@@ -287,7 +287,7 @@ h4{
     }
 
     #cscore{
-        top:505px;
+        bottom:0px;
         left:0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 0px;
