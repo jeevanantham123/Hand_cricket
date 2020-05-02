@@ -291,7 +291,7 @@ h4{
     }
 
     #cscore{
-        bottom:10px;
+        bottom:auto;
         left:0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 0px;
