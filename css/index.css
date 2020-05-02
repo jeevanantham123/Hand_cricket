@@ -233,7 +233,7 @@ h4{
         background-image: none;     
     }
     .but{
-        left:50px;
+        left:100px;
     }
     .container{
         overflow: hidden;
@@ -243,7 +243,7 @@ h4{
         background-color: slateblue;
     }
     .container #link{
-        left:110px;
+        left:170px;
     }
     .quit{
         top:40px;
@@ -253,16 +253,16 @@ h4{
         background-image: none;
     }
     .user{
-        top:340px;
+        top:300px;
         left:90px;
     }
     .computer{
-        top:150px;
+        top:120px;
         left:90px;
         
     }
     .btn-group{
-        top:550px;
+        margin-bottom: 0px;
         margin-left:25px;
         width: 300px;
     }
@@ -284,7 +284,7 @@ h4{
     }
 
     #cscore{
-        top: 597px;
+        margin-bottom: 0px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 0px;
         width: 350px;
