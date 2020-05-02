@@ -233,7 +233,7 @@ h4{
         background-image: none;     
     }
     .but{
-        left:10px;
+        left:50px;
     }
     .container{
         overflow: hidden;
@@ -243,40 +243,40 @@ h4{
         background-color: slateblue;
     }
     .container #link{
-        left:70px;
+        left:110px;
     }
     .quit{
         top:40px;
-        left:220px;
+        left:218px;
     }
     .home{
         background-image: none;
     }
     .user{
-        top:280px;
-        left:70px;
+        top:340px;
+        left:90px;
     }
     .computer{
-        top:100px;
-        left:70px;
+        top:150px;
+        left:90px;
         
     }
     .btn-group{
-        top:460px;
+        top:550px;
         margin-left:25px;
         width: 300px;
     }
     .computer img{
-        left:40px;
-        width:100px;
-        height: 100px;
-        top:55px;
+        left:20px;
+        width:130px;
+        height: 130px;
+        top:60px;
     }
     .user img{
-            left:40px;
-            width:100px;
-            height: 100px;
-            top:55px;
+        left:20px;
+        width:130px;
+        height: 130px;
+        top:60px;
     
     }
     h3{
@@ -284,7 +284,7 @@ h4{
     }
 
     #cscore{
-        top:495px;
+        top: 597px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 0px;
         width: 350px;
