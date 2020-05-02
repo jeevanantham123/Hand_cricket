@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    
+    localStorage.setItem("usertarget",null);
+    localStorage.setItem("computertarget",null);
     localStorage.setItem("choice","no choice");
     $("#link").hide();
     setTimeout(function(){alert("Instructions:\n Choose one option to start the game")},500);
