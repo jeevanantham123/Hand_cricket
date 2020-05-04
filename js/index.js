@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
     localStorage.setItem("usertarget",null);
     localStorage.setItem("computertarget",null);
     localStorage.setItem("choice","no choice");

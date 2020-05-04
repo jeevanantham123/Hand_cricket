@@ -4,6 +4,15 @@ var comp_score = 0;
 $(document).ready(function () {
     var usertarget=localStorage.getItem("usertarget");
     var computertarget=localStorage.getItem("computertarget");
+    var aud=document.getElementById("ipl");
+    var hit=document.getElementById("hit");
+    function playAudio() {
+        aud.play();
+      }
+      
+      function hitAudio() {
+        hit.play();
+      }
          $("img").hide();
          $(".out").hide();
          if(localStorage.getItem("choice")=="bat"){
@@ -64,6 +73,7 @@ $(document).ready(function () {
                         localStorage.setItem("usertarget",comp_score+1);                        
                         if(computertarget!=null){
                             if(comp_score<computertarget){
+                                playAudio();
                                 setTimeout(function(){alert("you win")},300);
                                 setTimeout(function(){redirect()},100);
                             }
@@ -77,7 +87,7 @@ $(document).ready(function () {
 
                     }
                 } else {
-
+                    hitAudio();
                     if (localStorage.getItem("choice") == "no choice") {
                         console.log("null");
                         alert("select bat or bowl option");
@@ -91,6 +101,7 @@ $(document).ready(function () {
                         $("#cscore").html("Batting:User&nbsp;&nbsp;&nbsp;Bowling:Computer&nbsp;&nbsp;&nbsp;Score:"+score);
                         if(usertarget!=null){
                             if(score>=usertarget){
+                                playAudio();
                                 setTimeout(function(){alert("you win")},1000);
                                 setTimeout(function(){redirect()},300);
                         }
